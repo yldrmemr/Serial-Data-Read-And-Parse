@@ -10,10 +10,10 @@ import numpy as np
 #**********************************************************************
 #               -Port Ayarları Ve Sabit Tamınlamalar-
 #**********************************************************************
-port = '/dev/ttyAMA0'
-baud = 9600
+port = '/dev/ttyUSB0'
+baud = 115200
 lastime = 0
-timeout = 30
+timeout = 10
 SagToplamAlınan     = np.uint16(0)
 SolToplamAlınan     = np.uint16(0)
 ToplamDataAlınan    = np.uint32(0)
