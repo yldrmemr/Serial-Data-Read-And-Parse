@@ -66,4 +66,4 @@ while true:
     print("-Parcalara Ayrılmıs Veriler -")
     print("---------------------------------------")
     Parcala(OkunanSensor)
-    time.sleep(0.02)
+    sleep(0.02)
